@@ -1,0 +1,2 @@
+This assignment was simple enough.
+Write a program with an object called shopper, include at least one property with all of the primitive data types[string, number, boolean]as well as a method. Also to add a property called groceryCart that will hold an Array of items that are commonly found inside a grocery cart. This helped me with use of proper object convention and syntax. I learned what a method was and how to use it. I choose to use return even though it will not print anything to the console by itself.3/4/18 10:09pm.
