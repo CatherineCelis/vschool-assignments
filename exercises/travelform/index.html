@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    
+</head>
+<body>
+    <!-- place everything in a form -->
+    <form id="submit" name="login">
+        <h1>Catalina Islands Air</h1>
+        <h3>Passenger Name</h3>
+        <!-- login bar which hold the input from user -->
+        <input id="firstName" name="firstName" type="text" placeholder="Enter First Name">
+        <input id="lastName" name="lastName" type="text" placeholder="Enter Last Name">
+        <h3>Passenger Age</h3>
+        <input id="number" name="number" type="" placeholder="Enter Your Age">
+        <h3>Passenger Gender</h3>
+        <!-- radio buttons male or female -->
+        <label for="gender">Female
+            <input id="radio" type="radio" name="gender" value="Female">
+        </label>
+        <label for="gender">Male
+            <input id="radio" type="radio" name="gender" value="Male">
+        </label>
+
+
+        <!--select-->
+        <h3>Location of Travel</h3>
+        <select id="Destinations" name="" type="" value="">
+            <option value="Whistler Blackcomb, Canada">Whistler Blackcomb, Canada</option>
+            <option value="Telluride, Colorado">Telluride, Colorado</option>
+            <option value="Verbier, Switzerland">Verbier, Switzerland</option>
+            <option value="Chamonix, France">Chamonix, France</option>
+            <option value="Squaw Valley, California">Squaw Valley, California</option>
+            <option value="Catalina Islands">Catalina Islands</option>
+        </select>
+        <!-- check boxesvegetarian, kosher,
+         lactose free, etc. Include at least 3 options) -->
+        <h3>Dietary Restrictions</h3>
+        <select id="Restrictions" name="" type="checkbox">
+            <option type="checkbox" name="Restriction1">Vegitarian</option>
+            <option type="checkbox" name="Restriction2">Kosher</option>
+            <option type="checkbox" name="Restriction3">Lactose-Free</option>
+            <option type="checkbox" name="Restriction4">Nut Allergy</option>
+        </select>
+        
+
+
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
