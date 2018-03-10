@@ -5,29 +5,33 @@
     height: 150px;
     padding: 30px;
     border: black solid;
-    display: flex;
 }
-.articles {
+.article {
     font-size: 30px;
     border: black solid;
     font-family: 'Times New Roman', Times, serif;
+    align-items: center;
 }
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    height: 40px;
+    padding: 25px;
+    font-size: 25px;
+    border: black solid;
+    margin-bottom: 0px;
+}
+
 .mainimg {
-    float: left;
+    align-content: stretch;
 }
 
 p {
     padding: 15px;
-}
-
-.h2 {
-    color: black;
-    text-align: center;
-    height: 80px;
-    padding: 25px;
-    font-size: 50px;
-    border: black solid;
-    margin-bottom: 0px;
 }
 
 .classifieds {
@@ -48,16 +52,3 @@ p {
     border: black dotted;
 } 
 
-.ads2 {
-    border: black dotted;
-}
-
-.ads3 {
-    border: black dotted;
-    
-}
-
-.ads4 {
-    border: black dotted;
-    
-}

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    font-size: 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    font-family: SuperMarioGalaxy;
+}
+
+.wrapper {
+    display: flex;
+    /* only matters on a direction 
+    parent/child relationship */
+    flex-direction: column;
+    height: 100vh;
+    font-family: Mario 256;
+}
+.header  {
+    background-color: yellow;
+    display: flex;
+
+}
+h3 {
+    padding-left: 12px;
+    font-size: 45px;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: .10;
+    background-color: yellow;
+    align-items: center;
+}
+    /* flex-direction: column;
+     */
+    /* width: 100px;  
+    height: 100px;
+    margin: auto;  
+    background-color: yellow;
+    justify-content: space-around;
+} */
+
+/* .img1 { */
+    /* width: 100px;  
+    height: 100px; 
+    margin: auto;  */
+/* } */
+
+/* .img2 { */
+    /* width: 100px;  
+    height: 100px; 
+    margin: auto; 
+} */
+
+.red {
+    display: flex;
+    flex: .50;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    background-image: url(https://coursework.vschool.io/content/images/2015/07/luigi.png);
+    height: 95%;
+    width: 400px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.main {
+    flex: .30;
+    background-color: white;
+    justify-content: center; 
+    align-items: center;
+    
+}
+
+.aboutme h2, .aboutme p {
+    font-size: 30px;
+}
+
+.aboutme h2 {
+    text-decoration-color: red;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.footer {
+    display: flex;
+    flex: .10;
+    background-color: yellow; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.img2 {
+background-image: url(https://coursework.vschool.io/content/images/2015/07/greenmushroom.png);
+height: 80%;
+width: 65px;
+background-size: contain;
+background-repeat: no-repeat;
+ 
+}
+
+@font-face {
+    font-family: Mario 256;
+    src: url(SuperMario256.ttf);
+}
