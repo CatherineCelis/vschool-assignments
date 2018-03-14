@@ -3,9 +3,10 @@
 // removed. Must handle lowercase and uppercase letters.
 var str = [""]
 function removeA(str) {
-    for (var i = ; i )
-    var work = str.splice(indexOf("a"));
-    return work;
+    var work = 
+    // for (var i = ; i )
+    // var work = str.splice(indexOf("a"));
+    // return work;
 }
 
 console.log(removeA("a"));
