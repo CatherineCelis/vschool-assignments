@@ -43,7 +43,7 @@
 // console.log(person.age);  
 // person.birthday();  
 // console.log(person.age);
-var paddleBoarders = [
+var paddleBoarder = [
   {
       name: "Cat",
       height: 5,
@@ -59,39 +59,70 @@ var paddleBoarders = [
       eyeColor: "Brown",
       speak: function() {
           console.log("I think I am finally starting to understand something about coding!!!");
-      }
-  };
-  console.log(paddleBoarders.name.speak();
-  paddleBoarders.name.speak();
-}
-  {
-      name: "Shelby",
-      height: 6,
-      age: 29,
-      boardColor: "white",
-      standUp: false,
-      favoriteReservoir: ["Flaming Gorge", "Strawberry"],
-      swimsuitColor: ["black", "white", "blue"],
-      favoriteSinger: "Chris Stapleton",
-      phoneNumber: 3076771111,
-      shoeSize: 12,
-      carType: "Dodge",
-      eyeColor: "Orange"
-  },
-  {
-    name: "Brooke",
-    height: 4,
-    age: 35,
-    boardColor: "pink",
-    standUp: true,
-    favoriteReservoir: ["Mississippi Mud Bowl", "Strawberry"],
-    swimsuitColor: ["purple", "white", "blue"],
-    favoriteSinger: "Shakira",
-    phoneNumber: 6182882288,
-    shoeSize: 9,
-    carType: "GMC",
-    eyeColor: "Green"
+      },
+      paddleBoardingFriends: [
+          {
+            name: "Shelby",
+            height: 6,
+            age: 29,
+            boardColor: "white",
+            standUp: false,
+            favoriteReservoir: ["Flaming Gorge", "Strawberry"],
+            swimsuitColor: ["black", "white", "blue"],
+            favoriteSinger: "Chris Stapleton",
+            phoneNumber: 3076771111,
+            shoeSize: 12,
+            carType: "Dodge",
+            eyeColor: "Orange",
+            speak: function() {
+                console.log("Cat, what do you want me to make you for dinner?");
+            },
+            lifeGoals: [
+                {
+                  liveUntilAge: 85,
+                  howManyChildren: 2,
+                  career: "vehicle restoration",
+                  homeType: "homestead",
+                  hobbies: ["hunting guide, travel often, play guitar"],
+                }
+            ],
+
+          },
+          {
+            name: "Brooke",
+            height: 4,
+            age: 35,
+            boardColor: "pink",
+            standUp: true,
+            favoriteReservoir: ["Mississippi Mud Bowl", "Strawberry"],
+            swimsuitColor: ["purple", "white", "blue"],
+            favoriteSinger: "Shakira",
+            phoneNumber: 6182882288,
+            shoeSize: 9,
+            carType: "GMC",
+            eyeColor: "Green",
+            lifeGoals: [
+                {
+                  liveUntilAge: 100,
+                  howManyChildren: 2,
+                  career: "millionaire",
+                  homeType: "homestead",
+                  hobbies: ["swimming, travel often, play guitar"],
+                } 
+            ]
+          }
+      ]
   }
+]
+//   console.log(paddleBoarders.name.speak();
+//   paddleBoarders.name.speak();
+// }
+//   {
+      
+//   },
+//   {
+    
+//   }
             
 
 //         }

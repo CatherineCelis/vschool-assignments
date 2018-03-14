@@ -1,6 +1,6 @@
-for (var i = 0; i < 10; i++){
-    console.log(i);
-}
+// for (var i = 0; i < 10; i++){
+//     console.log(i);
+// }
 // will log 0-9
 
 for (var i = 9; i > 0; i++){
@@ -10,15 +10,15 @@ for (var i = 9; i > 0; i++){
 
 
 
-var fruits = ["banana", "orange", "apple", "kiwi"]
-for (var i = 0; i < fruits.length; i++){
-    console.log(i);
-}
+// var fruits = ["banana", "orange", "apple", "kiwi"]
+// for (var i = 0; i < fruits.length; i++){
+//     console.log(i);
+// }
 // all of the above are preliminaries
 
 //BRONZE #1
 
-for (var i = 0; i < 10)
+// for (var i = 0; i < 10)
 
 
 
@@ -31,7 +31,7 @@ for (var i = 0; i < 10)
 
 
 
-var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"];
+// var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"];
 
 // var numbers = [];
 ////numbers.push()
@@ -39,21 +39,21 @@ var fruit = ["banana", "orange", "apple", "kiwi", "pear", "peach"];
 
 
 // silver#1
-var peopleNames =["cat", "liz", "brooke", "lauren" ];
-for (var i = 0; i < peopleNames.length; i++{
-    console.log(peopleNames[i]);
+// var peopleNames =["cat", "liz", "brooke", "lauren" ];
+// for (var i = 0; i < peopleNames.length; i++{
+//     console.log(peopleNames[i]);
 
-}
+// }
 
-// silver#2
+// // silver#2
 
-// gold #2notes
+// // gold #2notes
 
-// nested for loop
+// // nested for loop
 
-for(var i=0;i<3; i++){
+// for(var i=0;i<3; i++){
     
-}
+// }
 
 
 

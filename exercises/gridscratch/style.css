@@ -1,13 +1,120 @@
-* {
-    box-sizing: border-box; 
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
     font-size: 0px;
+    margin: 0;
+}
+/* this is bootstrap presets that sets to everything on page */
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 353px;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); */
+    /* the above comments are from the previous static colorgrid
+     from scratch project, we didnt need them in this new project */
+}
+/* sets something away from the page, 
+in the beginning set a background color to see where your stuff is */
+
+.container div {
+    height: 150px;
+    display: inline-block;
+    border: white solid 5px;
+    margin: auto;
+}
+/* sets every individual; divs borders independently, 
+so you need both */
+/* the separate divs below, we only need the background
+ color to separate, the first ones are from our first classes we used */
+.pink {
+    background-color: #F5C6D6;
 }
 
-*,
-*:before,
-*
+.hotpink {
+    background-color: #EE2E84;
+}
 
-p1 {
-    background-color:
+.blue {
+    background-color: #85CFD8;
+}
 
+.green {
+    background-color: #8DC63F;
+}
+
+.orange {
+    background-color: #E76E34
+}
+/* the below are from our second classes we used, separating our second level blocks */
+.all {
+    width: 100%;
+}
+
+.threeFourths {
+    width: 100%;
+}
+
+.oneHalf {
+    width: 100%;
+}
+
+.oneQuarter {
+    width: 100%;
+}
+/* only causes the container to grow, from what we previously defined in initial container */
+@media (min-width:576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+/* grows it again, sets position absolute to itself, then we have to center it using top, left, and transform, since it defaults to top left. */
+@media (min-width: 768px) {
+    .container {
+        max-width: 720px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .all {
+        width: 100%;
+    }
+    .threeFourths {
+        width: 75%;
+    }
+    .oneHalf {
+        width: 50%;
+    }
+    .oneQuarter {
+        width: 25%;
+    }
+}
+/* this covers all of our inbetweens when the screen grows and shrinks */
+@media (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .container {
+        max-width: 1805px;
+    }
 }
