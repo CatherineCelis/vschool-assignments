@@ -1,0 +1,3 @@
+we needed to define the variable gator globally in order to use it outside of the function block. Created a function named removeA and plugged the string aligator into the function at the end. replace is a built in method that will replace all of the instances of a inside og our string that we created, then the g stands for globally, and the i stands for insensitive to case(upper or lower), then we replaced it with nothing hence the set of empty string""
+
+then we call our removeA function and plug in our string var name gator.

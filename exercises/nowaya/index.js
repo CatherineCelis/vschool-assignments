@@ -1,12 +1,8 @@
 // Make a function that takes a string and returns 
 // that string with all instances of the letter 'a' 
 // removed. Must handle lowercase and uppercase letters.
-var str = [""]
-function removeA(str) {
-    var work = 
-    // for (var i = ; i )
-    // var work = str.splice(indexOf("a"));
-    // return work;
+var gator = "aligator"
+function removeA(gator) {
+    return gator.replace(/a/gi, "");
 }
-
-console.log(removeA("a"));
+console.log(removeA(gator));
