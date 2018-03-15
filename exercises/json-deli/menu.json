@@ -1,0 +1,54 @@
+{
+    "appetizers": [{
+            "name": "nachos",
+            "ingredients": ["chips", "salsa", "chesse"],
+            "description": "A delicious melted dish which is a favorite American pasttime appetizer to enjoy while watching any sports game."
+        },
+        {
+            "name": "chickenwings",
+            "ingredients": ["hotsauce", "chicken wings uncooked", "spices", "bbq sauce", "ranch", "blue cheese"],
+            "description": "Smothered in delicious spices and painted with a spicy sweet sauce, these chicken wings will make your mouth water."
+        },
+        {
+            "name": "artichoke dip",
+            "ingredients": ["artichokes", "white cheese mixture", "ground spicy peppers"], 
+            "desrciption": "A beautifully creamy blend of peppers, artichokes, and cheese to dip your nachos into."
+        }
+    ],
+
+    "cold sandwiches": [{
+            "name": "turkey club",
+            "ingredients": ["turkey", "swiss cheese", "lettuce", "tomatoe", "mayo","Italian white bread"],
+            "description": "Cold cut sandwich consisting of meat and cheese, that is eaten with a crisp pickle for good measure ."
+        },
+        {
+            "name": "BLT",
+            "ingredients": ["bacon", "lettuce", "tomatoe", "mayo"],
+            "desrciption": "A cold cut sub on white bread, traditional bacon, lettuce, mayo, and tomatoe"
+        },
+        {
+            "name": "Billy Club", 
+            "ingredients": ["2 portions of prime cut roast beef", "2 peices of swiss cheese", "dijon mustard", "Italian bread"], 
+            "desrciption": "Classic club with only meat ,cheese, and a healthy serving of mustard" 
+        }
+    ],
+
+    "hot sandwiches": [{
+            "name": "grilled cheese",
+            "ingredients": ["butter", "2 peices of cheedar cheese", "2 peices of swiss cheese", "2 peices of wheat bread"],
+            "desrciption": "A hot sandwich grilled on top of the stove slathered in butter to give a golden brown crispy texture on the outside, and melted cheese on the inside"
+    },
+    {
+            "name": "egg sandwhich",
+            "ingredients": ["3 eggs", "mayo", "cheddar cheese", "mayo", "mustard"],
+            "desrciption": "3 eggs cooked sunny side up smothered with cheese, mayo, and mustard on a sesame toast"
+    },
+    {
+            "name": "reuben",
+            "ingredients": ["corn beef", "sourcrout", "onions", "rye bread", "dipping house sauce"], 
+            "desrciption": "Delicious isish style cooked corn beef smothered with sourcout and onions on a freshly baked rye bun with house secret dipping sauce on the side"
+    }
+    ]
+}
+               
+            
