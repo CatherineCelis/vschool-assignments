@@ -14,25 +14,22 @@
     height: 100vh;
     font-family: Mario 256;
 }
-.header  {
-    background-color: yellow;
-    display: flex;
 
-}
-h3 {
-    padding-left: 12px;
-    font-size: 45px;
-    align-items: center;
-}
-
-.title {
+.yellowtop {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: .10;
+    flex: .15;
     background-color: yellow;
-    align-items: center;
+    align-items: left;
 }
+
+h3 {
+    padding-left: 12px;
+    font-size: 45px;
+}
+
+
     /* flex-direction: column;
      */
     /* width: 100px;  
@@ -54,9 +51,9 @@ h3 {
     margin: auto; 
 } */
 
-.red {
+.midred {
     display: flex;
-    flex: .50;
+    flex: .65;
     background-color: red;
     justify-content: center;
     align-items: center;
@@ -71,12 +68,12 @@ h3 {
     background-repeat: no-repeat;
 }
 
-.main {
-    flex: .30;
+.endwhite {
+    flex: .60;
     background-color: white;
     justify-content: center; 
-    align-items: center;
-    
+    align-content: center;
+
 }
 
 .aboutme h2, .aboutme p {
@@ -91,9 +88,9 @@ h3 {
 
 }
 
-.footer {
+.yellowfooter {
     display: flex;
-    flex: .10;
+    flex: .30;
     background-color: yellow; 
     justify-content: flex-end; 
     align-items: center; 
