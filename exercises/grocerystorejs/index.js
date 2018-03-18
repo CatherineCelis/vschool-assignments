@@ -4,7 +4,10 @@ var shopper = {
     age: 54,
     hairColorBlonde: true,
     groceryCart: ["Milk", "Bananas", "Soda", "Vodka",],
-    fullName: function() {
-        return this.firstName + "Michele " + this.lastName; 
+    concat: function() {
+        var a = shopper.firstName + " " + shopper.lastName;
+        return a; 
     }
-};
+}
+
+console.log(shopper.concat());
