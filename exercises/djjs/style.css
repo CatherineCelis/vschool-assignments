@@ -1,15 +1,15 @@
-body {
+/* body {
     position: relative;
     height: 100vh;
-}
+} */
 
 #box {
     position: absolute;
-    width: 40%;
-    margin: auto;
-    height: 40vh;
+    width: 300px;
+    /* margin: auto; */
+    height: 300px;
     border: thin solid purple;
-    border-radius: 50px;
+    /* border-radius: 50px; */
     left: 50%;
     top: 50%;
     transform: translateY(-50%) translateX(-50%)

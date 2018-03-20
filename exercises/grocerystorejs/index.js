@@ -5,8 +5,7 @@ var shopper = {
     hairColorBlonde: true,
     groceryCart: ["Milk", "Bananas", "Soda", "Vodka",],
     concat: function() {
-        var a = shopper.firstName + " " + shopper.lastName;
-        return a; 
+        return shopper.firstName + " " + shopper.lastName; 
     }
 }
 

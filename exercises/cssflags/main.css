@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+/* .wrapper {
+    width: 75%;
+    margin: auto;
+} */
+
+.mostflags {
+    height: 240px;
+    width: 360px;
+    border: 1px solid black;
+
+}
+
+#france {
+    display: inline-block;
+    border: 1px solid black;
+    margin: 110px;    
+}
+
+.fblue {
+    background-color: blue;
+    display: inline-block;
+    height: 550px;
+    width: 367px;
+}
+
+.fwhite {
+    background-color: white;
+    display: inline-block;
+    height: 550px;
+    width: 367px;
+
+}
+ 
+.fred {
+    background-color: red;
+    display: inline-block;
+    height: 550px;
+    width: 367px;
+}
+
+/* -------------------------- */
+
+#germany {
+    border: 1px solid black;
+}
+
+.gblack {
+    background-color: black;
+    width: 1101px;
+    height: 183px;
+}
+
+.gred {
+    background-color: red;
+    height: 183px;
+    width: 1101px;
+
+}
+
+.gyellow {
+    background-color: yellow;
+    height: 183px;
+    width: 1101px;
+} 
+
+/* --------------------------*/
+
+#madagascar {
+    border: 1px solid black;
+    position: relative;
+}
+
+.mwhite {
+    background-color: white;
+    height: 550px;
+    width: 367px;
+    /* position: absolute; */
+}
+
+.mred {
+    background-color: red;
+    height: 225px;
+    width: 551px;
+    /* position: absolute; */
+    /* display: inline-block; */
+}
+
+.mgreen {
+    background-color: green;
+    height: 225px;
+    width: 551px;
+    /* position: absolute; */
+} 
+
+
+ 
