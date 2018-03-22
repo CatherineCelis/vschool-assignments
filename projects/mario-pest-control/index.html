@@ -3,12 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Mario Pest Control</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    
 </head>
 <body>
+    <h1>Mario Pest Control</h1>
+    <form name="badCost">
+        <ul>
+            <li class="goombas">
+                <img class="pics" src="Goomba.png">
+                <p class="priceKey">Goombas = 5 COINS</P>
+                <input id="gamount" name="numOfGoombas" type="number" placeholder="#Goombas Caught!" required>
+            </li>
+            <li class="bob-bombs">
+                <img class="pics" src="Bob-omb.jpg">
+                <p class="priceKey">Bob-ombs = 7 COINS</P>
+                <input id="bamount" name="numOfBobs" type="number" placeholder="#Bob-ombs Caught!" required>
+            </li>
+            <li class"cheeps">
+                <img class="pics" src="cheepcheep.jpg">
+                <p class="priceKey">CheepCheeps = 11 COINS</P>
+                <input id="camount" name="numOfBobs" type="number" placeholder="#Cheeps Caught!" required>
+            </li>
+        </ul>
+        <div class="but">
+            <button class="total" type="submit">Submit Captive Baddies Amount</button>
+        </div>
+        <div class="grandTotal">
+            
+            <p class="bbp">Baddie Bounty Payout =</p>
+            <div id="payoutTotal">100</div>
+        </div>
+        
+    </form>
+    <footer>
+        <p>Bounty Hunter Email: MachoMario@gmail.com</p>
+        <p>Bounty Hunter Address: 1098 Mydonkey Ave. Green Pipe, Minnesota #87621</p>
+        <p>Bounty Hunter Website: "TheGameNeverEnds@supermario.com"</p>
+    </footer>
     
+
+    <script src="main.js"></script>
 </body>
 </html>

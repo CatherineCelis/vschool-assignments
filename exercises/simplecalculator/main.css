@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: mario;
+    text-align: center;
+    font-size: 35px;
+    text-decoration-line: underline;
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+
+}
+@font-face {
+    font-family: mario;
+    src: url(SuperMario256.ttf);
+}
+.wrapper {
+    background-color: blue;
+    height: 1500px;
+    width: 800px;
+    position: relative;
+    padding: 5px;
+}
+
+form {
+    background-color: red;
+    margin: 60px;
+    padding-top: 2px;
+    padding-bottom: 50px;
+    border: 10px solid black;
+}
+
+input {
+    height: 40px;
+    border: 3px solid black;
+}
+
+p {
+    font-size: 40px;
+    color: black;
+    border: 3px solid black;
+}
+button {
+    height: 40px;
+    border: 3px solid black;
+
+}
+

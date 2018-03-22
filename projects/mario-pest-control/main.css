@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    /* margin: 0; */
+    font-family: mario;
+}
+
+
+h1 {
+    background: red;
+    text-align: center;
+    /* font-family: mario; */
+    font-size: 80px;
+    text-decoration-line: underline;
+    margin: 0;
+    padding: 30px;
+
+}
+
+form {
+    background-color: blue;
+    margin: 0;
+}
+
+li {
+    font-size: 30px;
+    /* font-family: Mario; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+input {
+    border: 2px solid black;
+}
+.but {
+    text-align: right;
+    height: 40px;
+    font-size: 40px;
+}
+
+.grandTotal {
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: left;
+    /* display: inline-block; */
+}
+
+.pics {
+    width: auto;
+    height: 100px;
+}
+
+.bbp {
+    text-align: center;
+} 
+
+#payoutTotal {
+    text-align: center;
+    font-size: 80px;
+    /* position: absolute; */
+    display: inline-block;
+}
+.total {
+    font-size: 20px;
+    border: 5px solid black;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: ; */
+    flex-wrap: wrap;
+    background-color: red;
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding-top: 50px;
+    height: 30%;
+    margin:0;
+}
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: mario;
+    src: url(SuperMario256.ttf);
+}
+
+@media (max-width: 775px) {
+
+}
