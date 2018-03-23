@@ -1,11 +1,13 @@
 * {
     box-sizing: border-box;
-    /* margin: 0; */
+    margin: 0;
     font-family: mario;
 }
 
 body {
-    background-image: url("http://moviehole.net/img/super-marion-run.jpg") 
+    background-image: url("http://moviehole.net/img/super-marion-run.jpg"); 
+    width: 100%;
+    /* margin-right: 0; */
 }
 
 
@@ -13,11 +15,12 @@ h1 {
     /* background: red; */
     text-align: center;
     /* font-family: mario; */
-    font-size: 80px;
+    font-size: 120px;
     text-decoration-line: underline;
     margin: 0;
     padding: 30px;
     box-shadow: black;
+    border: 5px solid black;
 
 }
 
@@ -27,17 +30,22 @@ form {
 }
 
 li {
-    font-size: 30px;
+    font-size: 60px;
     /* font-family: Mario; */
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    color: chartreuse;
+
 }
 input {
     border: 5px solid black;
+    font-size: 40px;
+    width: 400px;
+    text-align: center;
 }
 .but {
-    text-align: right;
+    text-align: center;
     height: px;
     font-size: 80px;
 }
@@ -54,10 +62,17 @@ input {
 .pics {
     width: auto;
     height: 100px;
+    border: 5px solid black;
+    margin: 20px;
 }
 
 .bbp {
+    color: chartreuse;
     text-align: center;
+    border: 5px solid black;
+    font-size: 60px;
+    height: 75px;
+    padding-top: 10px;
 } 
 
 #payoutTotal {
@@ -66,10 +81,15 @@ input {
     /* position: absolute; */
     display: inline-block;
     border: 5px solid black;
+    color: blue;
 }
 .total {
     font-size: 20px;
     border: 5px solid black;
+    margin-right: 300px;
+    height: 100px;
+    color: blue;
+    margin-bottom: 40px;
 }
 
 footer {
@@ -83,6 +103,10 @@ footer {
     padding-top: 50px;
     height: 30%;
     margin:0;
+}
+
+.pricekey {
+    border: 5px solid black;
 }
 
 

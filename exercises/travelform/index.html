@@ -11,7 +11,7 @@
 <body>
     <div id="wrapper">
     <!-- place everything in a form -->
-        <form name="travel-form">
+        <form name="travelform">
             <h1>Catalina Islands Air</h1>
             <h3>Passenger Name</h3>
             <!-- login bar which hold the input from user -->
@@ -31,7 +31,7 @@
 
             <!--select-->
             <h3>Location of Travel</h3>
-            <select name="Destinations" type="select">
+            <select id="destination" name="destination" type="select">
                 <option value="Whistler Blackcomb, Canada">Whistler Blackcomb, Canada</option>
                 <option value="Telluride, Colorado">Telluride, Colorado</option>
                 <option value="Verbier, Switzerland">Verbier, Switzerland</option>
@@ -42,14 +42,14 @@
             <!-- check boxesvegetarian, kosher,
             lactose free, etc. Include at least 3 options) -->
             <h3>Dietary Restrictions</h3>
-            <select name="Restrictions" type="checkbox">
-                <option type="checkbox" name="Restriction1">Vegitarian</option>
-                <option type="checkbox" name="Restriction2">Kosher</option>
-                <option type="checkbox" name="Restriction3">Lactose-Free</option>
-                <option type="checkbox" name="Restriction4">Nut Allergy</option>
+            <input id="regular" value="Regular" name="food" type="checkbox"/> Regular
+            <input id="vegetarian" value="Vegetarian" name="food" type="checkbox"/> Vegetarian
+            <input id="kosher"value="Kosher" name="food" type="checkbox"/> Kosher 
+            <input id="lactoseFree"value="Lactose Free" name="food" type="checkbox"/> Lactose Free 
+            <br>
             </select>
             <div>
-                <button>Submit Travel Details</button>
+                <button id="submit">Submit Travel Details</button>
             </div>
 
 
