@@ -15,7 +15,7 @@ console.log("HA HA! Your full name smashed together is " + firstName.concat(last
 var longGuy = rs.question("Will you give me some good life advice that is at least 25 characters long please?");
 console.log(longGuy.slice(longGuy.length/2, longGuy.length));
 
-var repeatBack = rs.question("Thank you for the advice, it was very helpful. \n What part of the advice do you think I should remember the most, \n please type in the number ORDER of the first character, \n beginning with your specific advice, so I can remember it better.")
+var repeatBack = rs.question("Thank you for the advice, it was very helpful. \n Please pick a number between 1 and 25\n so we can recall a portion of your great advice!!!!")
 console.log(longGuy.slice((repeatBack - 1), longGuy.length));
 
 // First you need to install install readline sync locally by typing : npm init -y  : inside the terminal
