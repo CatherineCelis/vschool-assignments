@@ -12,7 +12,7 @@ var rs = require("readline-sync");
 function playTheGame() {  
     var name = rs.question("Welcome to the escape room!\n I hope you enjoy your time here with us and remeber 1 thing....\n NO ONE CAN HEAR YOU SCREAM!!!!!!!\nThese walls were built to hold the loudest cases of fear!\n No one has ever been able to escape this chamber before.\n What is your name new prisoner? ");
     console.log("Well then " + name.toUpperCase() + " let us begin the dreaded challenge,\n we are happy to have you.")
-    var options = ["Put hand in hole ", "Find the key ", "Open the door"];
+    var options = ["Put head in hole ", "Find the key ", "Open the door"];
     var choice = rs.keyInSelect(options, "You have three options to choose from.\n Your choice will determine your future.\n And remember,\n nothing is as it seems.\n Choose wisely!");
     var result = "";
     var conPlay = true;
@@ -21,7 +21,7 @@ function playTheGame() {
     while(conPlay) {
         switch (choice) {
             case 0:
-                console.log("Wrong answer, your head just got chooped off by a booby trapped swinging axe!!!!!TOO BAD!GAME OVER!");
+                console.log("Wrong answer, your head just got chopped off by a booby trapped swinging axe!!!!!TOO BAD!GAME OVER!");
                 conPlay = false;
                 break;
             case 1:

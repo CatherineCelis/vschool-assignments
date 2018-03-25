@@ -2,9 +2,13 @@
     margin: 0;
     font-size: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     font-family: SuperMarioGalaxy;
 }
+
+/* need to redo exercise from beginning when i get a chance lots of fuckery going on here */
+
+/* i need to ceneter the words in the white section and find the right font */
 
 .wrapper {
     display: flex;
@@ -12,97 +16,88 @@
     parent/child relationship */
     flex-direction: column;
     height: 100vh;
-    font-family: Mario 256;
+    /* font-family: Mario 256; */
 }
 
 .yellowtop {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    flex: .15;
+    flex: .30;
     background-color: yellow;
     align-items: left;
+    color: red;
 }
 
 h3 {
-    padding-left: 12px;
-    font-size: 45px;
+    padding-left: 80px;
+    font-size: 65px;
 }
-
-
-    /* flex-direction: column;
-     */
-    /* width: 100px;  
-    height: 100px;
-    margin: auto;  
-    background-color: yellow;
-    justify-content: space-around;
-} */
-
-/* .img1 { */
-    /* width: 100px;  
-    height: 100px; 
-    margin: auto;  */
-/* } */
-
-/* .img2 { */
-    /* width: 100px;  
-    height: 100px; 
-    margin: auto; 
-} */
 
 .midred {
     display: flex;
-    flex: .65;
+    flex: .60;
     background-color: red;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
+    font-size: 30px
+    /* align-items: center; */
 }
 
 .img1 {
-    background-image: url(https://coursework.vschool.io/content/images/2015/07/luigi.png);
-    height: 95%;
-    width: 400px;
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 100%;
+    width: 350px;
+    padding: 30px;
 }
 
-.endwhite {
-    flex: .60;
-    background-color: white;
-    justify-content: center; 
-    align-content: center;
-
-}
-
-.aboutme h2, .aboutme p {
-    font-size: 30px;
-}
-
-.aboutme h2 {
-    text-decoration-color: red;
-    font-size: 16px;
-    align-items: center;
+.white {
+    /* flex-direction: ; */
+    display: flex;
+    flex: .70;
+    /* align-items: center; */
     justify-content: center;
-
+    /* background-color: white; */
+    /* font-size: 50px; */
+    /* color: red; */
+    
 }
 
-.yellowfooter {
+/* .about {
+    align-items: center;
+} */
+
+h2 {
+    color: red;
+    font-size: 45px;
+    padding: 20px 20px;
+}
+
+h4 {
+    color: red;
+    font-size: 40px;
+    height: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 30px;
+}
+
+.yellowfoot {
     display: flex;
     flex: .30;
     background-color: yellow; 
     justify-content: flex-end; 
-    align-items: center; 
+    align-items: center;
+    margin-top: 10px;
+
 }
 
 .img2 {
-background-image: url(https://coursework.vschool.io/content/images/2015/07/greenmushroom.png);
+
 height: 80%;
-width: 65px;
-background-size: contain;
-background-repeat: no-repeat;
- 
+width: 100px;
+padding-right: 30px;
+justify-content: right;
+/* background-size: contain; */
+/* background-repeat: no-repeat; */
 }
 
 @font-face {
