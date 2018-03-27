@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 1px solid black;
+}
+
+body {
+    background-color: wheat;
+    flex-wrap: wrap;
+    /* display: flex; */
+}
+
+header {
+    background-image: url(dream1.jpg);
+    background-repeat: no-repeat;
+    height: 550px;
+    width: 100%;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    align-items: stretch;
+
+}
+
+h1 {
+    height: 200px;
+    font-size: 100px;
+    text-align: center;
+    /* margin-top: 0; */
+}
+
+nav {
+    /* padding: 80px; */
+    /* margin: 200px; */
+    /* display: inline; */
+}
+/* .linkz {
+    position: fixed;
+    box-shadow: cornsilk;
+    height: 50px;
+    font-size: 50px; */
+    /* display: flex; */
+    /* justify-content: space-around; */
+    
+
