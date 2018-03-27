@@ -1,10 +1,12 @@
 import React from "react";
+import coolPic from "../../images/header-pic.jpg";
 
 function Header() {
     return (
-        <header className="header-wrapper">
+        <header >
+            <div>
             <h1>Artic Cat Heli-Ski Tours</h1>
-            <img src=""/>
+            <img src={coolPic} alt=""/>
             <h2>ARE YOU SEARCHING FOR YOUR NEXT ADRENALINE RUSH?</h2>
             <p>PLEASE PUT INFO HERE ABOUT HELI-SKING</p>
             {/* <navbar className="linkz>
@@ -12,8 +14,10 @@ function Header() {
                 <a href="about.html">Schedule</a>
                 <a href="contact.html">Sign Up For Tour</a>
             </navbar> */}
+            </div>
         </header>    
     )
+    
 }
 
 export default Header;

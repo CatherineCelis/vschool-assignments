@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 25%;
+    height: 200px;
+}
+
+h1 {
+    font-family: cursive;
+}
