@@ -1,90 +1,123 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    border: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 body {
     background-color:black;
-    /* flex-wrap: wrap; */
-    background-image: url(dream1.jpg); 
-    background-repeat: no-repeat;
-    /* display: flex; */
-    /* height: 100vh; */
-    /* width: 100%; */
-    /* flex-direction: column; */
+    background-image: url(dream1.jpg);
+    display: flex;
+    flex-direction: column;
+}
+
+.dcbody {
+    /* background-image: url(dcoutside.jpg); */
+    /* background-repeat: no-repeat; */
 }
 
 header {
-    /* position: fixed; */
     width:100%;
-    /* display: block; */
     text-align: center;
-    /* background-color: rgb(36, 238, 171); */
     box-shadow: 3px 3px 12px;
     color: black;
-    /* display: flex; */
-    /* flex-direction: column; */
-
-    /* text-decoration-line: unset;   */
   }
 
-/* header {
-    /* background-image: url(dream1.jpg); */
+/* .dcheader { */
+    /* background-image: url(dcheaderpic.jpg); */
+    /* background-image: url(superthumb.jpg); */
+    /* background-image: url(dcoutside.jpg); */
     /* background-repeat: no-repeat; */
-    /* height: 550px; */
     /* width: 100%; */
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* flex-direction: column; */
-    /* align-items: stretch; */
+    /* color: darkslateblue; */
+    /* height: 200px; */
+    /* font-size: 40px; */
 /* } */
+.dctitle {
+    height: 300px;
+    font-size: 100px;
+    /* text-align: c; */
+    padding: 80px;
+    padding-bottom: 30px;
+}
 
-h1 {
+.linkz {
+    background-color: rgb(100, 100, 100, .3); 
+}
+
+.maintitle {
     height: 200px;
     font-size: 100px;
     text-align: center;
-    padding: 30px;
-    /* margin-top: 0; */
+    padding: 80px;
+    padding-bottom: 30px;
 }
 
 nav {
     padding: 5px;
-    margin: 10px;
-    /* display: inline; */
+    margin: 20px;
     text-align: center;
-    position: fixed;
-    /* box-shadow: cornsilk; */
-    /* box-shadow: 10px black; */
-    /* height: px; */
     width: 100%;
     font-size: 50px;
-    align-items: flex-end;
+    align-items: center;
     background-color: black;
     display: flex;
     justify-content: space-around;
 }
   
-.dreams {
-    margin: 40px;
-    padding: 100px;
+.main {
+    margin: 60px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
-h2 {
-    font-size: 40px;
-}
-
-
-h3  {
-    font-size: 50px;
+.dcmain {
+    background-image: url(colordreamer.jpg);
+    width: 35%;
+    margin-left: 30px;
 }
 
 p {
     font-size: 25px;
     text-align: center;
-    padding: 20px;
+    padding: 70px 110px 50px 110px;
+}
+.face {
+    float: left;
+}
+
+.dumb {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0;
+}
+
+.dcmainpic {
+    height: 245px;
+    float: left;
+}
+
+form { 
+    height: 200px;
+    margin: 30px;
+} 
+
+input {
+    height: 50px;
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    padding: 80px;
+    text-align: center;
+}
+
+#submit {
+    height: 50px;
+    width: 295px;
 }
     
     

@@ -2,11 +2,16 @@
     box-sizing: border-box;
     margin: 0;
     font-family: mario;
+    /* border: 1px solid black; */
 }
 
 body {
-    background-image: url("http://moviehole.net/img/super-marion-run.jpg"); 
-    width: 100%;
+    background-image: url("http://moviehole.net/img/super-marion-run.jpg");
+    /* background-repeat: no-repeat;  */
+    /* width: ; */
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
     /* margin-right: 0; */
 }
 
@@ -20,7 +25,7 @@ h1 {
     margin: 0;
     padding: 30px;
     box-shadow: black;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 
 }
 
@@ -79,7 +84,7 @@ input {
     text-align: center;
     font-size: 80px;
     /* position: absolute; */
-    display: inline-block;
+    /* display: inline-block; */
     border: 5px solid black;
     color: blue;
 }
@@ -123,6 +128,6 @@ footer {
     src: url(SuperMario256.ttf);
 }
 
-@media (max-width: 775px) {
+/* @media (max-width: 775px) {
 
-}
+} */
