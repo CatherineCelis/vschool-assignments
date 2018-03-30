@@ -1,5 +1,5 @@
 import React from "react";
-import Component from "./Component";
+import Component from "./Component/";
 
 const friends = [
     {name: "Mighty Morphin' Power Rangers", age: 24},

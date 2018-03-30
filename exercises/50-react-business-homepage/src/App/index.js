@@ -15,7 +15,13 @@ function App(){
     // } else {
     //     styles.color = "green";
     // }
+    function buttonWasClicked() {
+        alert("Button was Clicked");
+    }
+    return <button onClick={buttonWasClicked}>click</button>
     return (
+        
+        }
         <div>
             <Header></Header>
             <Content></Content>

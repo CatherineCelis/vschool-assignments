@@ -6,14 +6,21 @@
 
 body {
     background-color:black;
-    background-image: url(dream1.jpg);
+    /* background-image: url(dream1.jpg); */
     display: flex;
     flex-direction: column;
+}
+
+.indexbody {
+    background-image: url(dream1.jpg);
 }
 
 .dcbody {
     /* background-image: url(dcoutside.jpg); */
     /* background-repeat: no-repeat; */
+    background-image: url(tribalbc.jpg);
+    /* width: 100%; */
+
 }
 
 header {
@@ -21,6 +28,8 @@ header {
     text-align: center;
     box-shadow: 3px 3px 12px;
     color: black;
+    display: flex;
+    flex-direction: column;
   }
 
 /* .dcheader { */
@@ -33,16 +42,21 @@ header {
     /* height: 200px; */
     /* font-size: 40px; */
 /* } */
-.dctitle {
-    height: 300px;
-    font-size: 100px;
+/* .dctitle { */
+    /* height: 300px; */
+    /* font-size: 100px; */
     /* text-align: c; */
-    padding: 80px;
-    padding-bottom: 30px;
-}
+    /* padding: 80px; */
+    /* padding-bottom: 30px; */
+/* } */
 
 .linkz {
     background-color: rgb(100, 100, 100, .3); 
+}
+
+.ldlinkz {
+    background-color: rgba(73, 7, 112, 0.56);
+     
 }
 
 .maintitle {
@@ -66,17 +80,28 @@ nav {
 }
   
 .main {
-    margin: 60px;
+    margin: 20px;
     padding: 30px;
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.3);
 }
 
+.ldmain {
+    margin-top: 0;
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    background-image: url(ldpic.jpg)
+}
+
 .dcmain {
-    background-image: url(colordreamer.jpg);
-    width: 35%;
+    /* background-image: url(colordreamer.jpg); */
+    /* width: 35%; */
     margin-left: 30px;
+    text-align: center;
 }
 
 p {
@@ -118,6 +143,14 @@ footer {
 #submit {
     height: 50px;
     width: 295px;
+}
+
+.dcpic {
+    padding-top: 20px;
+}
+
+article {
+    text-align: center;
 }
     
     
